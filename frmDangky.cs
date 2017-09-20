@@ -9,13 +9,14 @@ using System.Windows.Forms;
 using System.Data.OleDb;
 namespace QLTruonghoc
 {
+    
     public partial class frmDangky : Form
     {
         public frmDangky()
         {
             InitializeComponent();
         }
-
+        //code for checkbox Loc ten
         private void ckbLocten_CheckedChanged(object sender, EventArgs e)
         {
             if (ckbLocten.Checked)
